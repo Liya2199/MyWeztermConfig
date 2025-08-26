@@ -14,7 +14,7 @@ return {
   color_scheme = "Gruvbox dark, medium (base16)",
 
   -- background
-  window_background_opacity = 1.00,
+  window_background_opacity = 0.9,
   win32_system_backdrop = "Acrylic",
   window_background_gradient = {
     colors = { "#1D261B", "#261A25" },
@@ -23,13 +23,13 @@ return {
   },
   background = {
     {
-      source = { File = wezterm.config_dir .. "/backdrops/space.jpg" },
+      source = { File = wezterm.config_dir .. "/backdrops/space.png" },
     },
     {
       source = { Color = "#1A1B26" },
       height = "100%",
       width = "100%",
-      opacity = 0.95,
+      opacity = 0.7,
     },
   },
 
@@ -61,7 +61,7 @@ return {
   integrated_title_button_color = "auto",
   integrated_title_button_alignment = "Right",
   initial_cols = 120,
-  initial_rows = 24,
+  initial_rows = 36,
   window_padding = {
     left = 5,
     right = 10,
