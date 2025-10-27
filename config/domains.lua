@@ -63,7 +63,7 @@ return {
       distribution = "Ubuntu",
       username = "liya",
       default_cwd = "/home/liya",
-      default_prog = { "fish" },
+      --default_prog = { "fish" },
     },
   },
 }
