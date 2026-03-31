@@ -15,19 +15,19 @@ local M = {}
 
 M.cells = {}
 
--- 找到 M.colors 部分，替换为以下内容：
 M.colors = {
   default = {
-    bg = "#282828", -- Gruvbox 背景深灰色
-    fg = "#a89984", -- 浅灰色文字
+    bg = "#8C246F",
+    fg = "#0F2536",
   },
   is_active = {
-    bg = "#3c3836", -- 稍亮的灰色突出活跃状态
-    fg = "#fabd2f", -- 经典的 Gruvbox 黄色文字
+    bg = "#3A854B",
+    fg = "#0F2536",
   },
+
   hover = {
-    bg = "#504945", 
-    fg = "#ebdbb2",
+    bg = "#8C246F",
+    fg = "#0F2536",
   },
 }
 

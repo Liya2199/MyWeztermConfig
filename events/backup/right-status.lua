@@ -4,18 +4,14 @@ local M = {}
 
 M.separator_char = " ~ "
 
--- 找到 M.colors 部分，替换为以下内容：
 M.colors = {
-  date_fg = "#83a598",      -- 淡淡的蓝色
-  date_bg = "none",         -- 设为 none 或与标题栏同色
-  battery_fg = "#d3869b",   -- 淡淡的粉紫色
-  battery_bg = "none",      -- 设为 none
-  separator_fg = "#665c54", -- 灰色的分隔符
-  separator_bg = "none",
+  date_fg = "#3E7FB5",
+  date_bg = "#0F2536",
+  battery_fg = "#B52F90",
+  battery_bg = "#0F2536",
+  separator_fg = "#786D22",
+  separator_bg = "#0F2536",
 }
-
--- 提示：在 M.push 函数里，WezTerm 的 Background 如果设为透明可能需要配合整体配置。
--- 如果 "none" 不生效，请改用你在 appearance.lua 里定义的背景色或保持 nil。
 
 M.cells = {} -- wezterm FormatItems (ref: https://wezfurlong.org/wezterm/config/lua/wezterm/format.html)
 

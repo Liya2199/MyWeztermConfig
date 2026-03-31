@@ -2,7 +2,7 @@ local wezterm = require("wezterm")
 local platform = require("utils.platform")
 
 local font = "Agave Nerd Font"
-local font_size = platform().is_mac and 12 or 12
+local font_size = platform().is_mac and 15 or 15
 
 return {
   font = wezterm.font(font),
