@@ -199,7 +199,8 @@ local mouse_bindings = {
 
 return {
   disable_default_key_bindings = true,
-  disable_default_mouse_bindings = true,
+  --下面这一行会触发5~（page up）已注释，除非你喜欢shift选中框选或者上面自定义的鼠标模式
+  -- disable_default_mouse_bindings = true, 
   leader = { key = "Space", mods = "CTRL|SHIFT" },
   keys = keys,
   key_tables = key_tables,
